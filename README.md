@@ -1,6 +1,6 @@
-# XT Recipes privacy policy
+# Tonecraft privacy policy
 
-Public copy of the privacy policy for the XT Recipes Android app, served by GitHub Pages at
-https://germain171.github.io/xt-recipes-privacy/
+Public copy of the privacy policy for the Tonecraft Android app, served by GitHub Pages at
+https://germain171.github.io/tonecraft-privacy/
 
 The source is `docs/privacy-policy.html` in the app's repository; copy it here as `index.html` when it changes.
