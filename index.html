@@ -3,65 +3,73 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Irisgrain privacy policy</title>
+<title>Irisgrain – Film Recipes</title>
+<meta name="description" content="Push film-look recipes to your camera over USB, or draft one from a photo. An Android app.">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#141311">
 <style>
-  :root { --bg: #fbfaf8; --text: #1d1b19; --muted: #6b665f; --line: #e4e0da; }
-  @media (prefers-color-scheme: dark) { :root { --bg: #161513; --text: #ece8e2; --muted: #a39d94; --line: #2c2a27; } }
-  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, sans-serif; }
-  main { max-width: 680px; margin: 0 auto; padding: 32px 16px 48px; }
-  h1 { font-size: 1.6rem; margin: 0 0 4px; }
-  h2 { font-size: 1.05rem; margin: 28px 0 6px; }
-  p { margin: 0 0 10px; }
-  .muted { color: var(--muted); }
-  .note { border-top: 1px solid var(--line); margin-top: 32px; padding-top: 16px; font-size: .9rem; color: var(--muted); }
-  a { color: inherit; }
+  :root { --bg: #141311; --surface: #1e1c19; --line: #2c2a26; --text: #f3efe7; --muted: #a8a196; --accent: #f2a65a; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 16px 40px; }
+  header { display: flex; align-items: center; gap: 18px; }
+  header img { width: 76px; height: 76px; flex: none; }
+  h1 { font-size: 2rem; line-height: 1.15; margin: 0; letter-spacing: -0.01em; }
+  .tag { margin: 4px 0 0; color: var(--muted); }
+  .lead { font-size: 1.15rem; margin: 32px 0 8px; }
+  .status { display: inline-block; margin: 8px 0 0; padding: 6px 12px; border: 1px solid var(--line); border-radius: 999px; color: var(--accent); font-size: .9rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin: 36px 0; }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; }
+  .card h2 { font-size: 1rem; margin: 0 0 6px; }
+  .card p { margin: 0; color: var(--muted); font-size: .95rem; }
+  .swatches { display: flex; gap: 6px; margin: 0 0 10px; }
+  .swatches span { width: 22px; height: 8px; border-radius: 4px; }
+  h3 { font-size: 1rem; margin: 28px 0 6px; }
+  p.small, footer { color: var(--muted); font-size: .9rem; }
+  a { color: var(--text); }
+  footer { border-top: 1px solid var(--line); margin-top: 40px; padding-top: 18px; }
+  footer nav { display: flex; flex-wrap: wrap; gap: 18px; margin-bottom: 12px; }
 </style>
 </head>
 <body>
 <main>
-<h1>Irisgrain privacy policy</h1>
-<p class="muted">Last updated 2 November 2026 · Contact: <a href="mailto:notetkakerai@gmail.com">notetkakerai@gmail.com</a></p>
+  <header>
+    <img src="icon.svg" alt="">
+    <div>
+      <h1>Irisgrain</h1>
+      <p class="tag">Film recipes, pushed to your camera</p>
+    </div>
+  </header>
 
-<h2>In short</h2>
-<p>Irisgrain has no accounts, no ads and no analytics of its own. Your recipes, photos and camera details stay on your phone unless you choose to send them. The one exception is Google ML Kit, described below.</p>
+  <p class="lead">Keep your film-look recipes in one place and send them to your camera over a USB cable, instead of dialling in settings menu by menu.</p>
+  <span class="status">Coming soon to Google Play</span>
 
-<h2>Stored on your phone</h2>
-<p>Recipes, slot assignments and camera profiles are kept in the app's private storage and removed when you uninstall it. Photo sessions are saved to Documents/Irisgrain, where they stay until you delete them.</p>
+  <section class="grid" aria-label="Features">
+    <div class="card"><div class="swatches"><span style="background:#1e6fa8"></span><span style="background:#3e9a5c"></span><span style="background:#e8b02e"></span></div>
+      <h2>Push in one tap</h2><p>Every setting is read back after a push, so you see exactly what applied. Track the camera's custom slots too.</p></div>
+    <div class="card"><div class="swatches"><span style="background:#e2a98a"></span><span style="background:#6f8a93"></span><span style="background:#8c6a48"></span></div>
+      <h2>A library that fits</h2><p>Paste recipe text from any page. Each recipe shows what fits your camera, what's adapted and why.</p></div>
+    <div class="card"><div class="swatches"><span style="background:#2f5f7a"></span><span style="background:#c9472e"></span><span style="background:#f2a65a"></span></div>
+      <h2>Recipe from an image</h2><p>Pick a photo with a look you love and get the nearest camera settings, with a reason for each.</p></div>
+    <div class="card"><div class="swatches"><span style="background:#6f8a93"></span><span style="background:#c9a16a"></span><span style="background:#8c5a43"></span></div>
+      <h2>See it first</h2><p>Preview a look live over your phone's camera, or export it as a .cube LUT for your editor.</p></div>
+    <div class="card"><div class="swatches"><span style="background:#1c1c1c"></span><span style="background:#7a7a7a"></span><span style="background:#e6e6e6"></span></div>
+      <h2>Frame and shoot</h2><p>Composition guides, a level, lens matching and photo sessions with a review page.</p></div>
+    <div class="card"><div class="swatches"><span style="background:#3e9a5c"></span><span style="background:#e8b02e"></span><span style="background:#1e6fa8"></span></div>
+      <h2>Camera scanner</h2><p>Scan any USB camera for the settings it exposes and send the profile to help add it.</p></div>
+  </section>
 
-<h2>Phone camera</h2>
-<p>The Frame tab and the live preview use the phone camera. Frames are analysed on the phone and aren't kept, except the photos you take during a photo session.</p>
+  <h3>What you need</h3>
+  <p class="small">A Fujifilm X-T1 in USB tether mode, and an Android phone with USB OTG and a cable to suit. More cameras are on the way: scanning yours and sending its profile helps.</p>
 
-<h2>Location</h2>
-<p>Only used if you turn on Save location in a photo session. The app asks for one location fix per photo and writes it into that photo's files on your phone. Location isn't tracked in between and isn't sent anywhere.</p>
-
-<h2>Your camera</h2>
-<p>The app reads and changes the camera's picture settings over the USB cable. Nothing about the camera leaves your phone unless you send a camera profile.</p>
-
-<h2>Images you import</h2>
-<p>When you make a recipe from an image, the image is measured on the phone. The app doesn't copy or upload it.</p>
-
-<h2>Camera profiles you send</h2>
-<p>If you tap Email profile, your own email app sends the profile to notetkakerai@gmail.com. It holds the camera's make, model, firmware, USB ids and the settings it offers, but no serial number and no text such as an owner's name. We also see the email address you send from. Profiles are used only to add cameras to the app; we reply from that address if needed and delete your email on request. Saving a profile as a file keeps it on your phone.</p>
-
-<h2>Google ML Kit</h2>
-<p>Subject detection in the Frame tab uses Google ML Kit, which runs on the phone. ML Kit sends Google diagnostic and usage data: device model and Android version, app version, a per-installation ID, performance and error codes. It doesn't send your photos or camera frames. See <a href="https://developers.google.com/ml-kit/android-data-disclosure">Google's ML Kit data disclosure</a>.</p>
-
-<h2>Purchases</h2>
-<p>Pro is bought through Google Play, which handles the payment under Google's own privacy policy. The app only asks Google Play whether this account owns Pro; we don't receive your payment details. To limit the free images, the app keeps a short fingerprint of each free image (64 bits worked out from its pixels, which can't be turned back into the picture) in its private storage on your phone.</p>
-
-<h2>Sharing and selling</h2>
-<p>We don't sell data and don't share it with anyone.</p>
-
-<h2>Children</h2>
-<p>The app isn't directed at children under 13.</p>
-
-<h2>Deleting your data</h2>
-<p>Uninstall the app to remove its private data, and delete Documents/Irisgrain to remove session photos. To have a camera profile email deleted, write to notetkakerai@gmail.com.</p>
-
-<h2>Changes and contact</h2>
-<p>If this policy changes, the new version will be in the app and on the policy page. Questions: <a href="mailto:notetkakerai@gmail.com">notetkakerai@gmail.com</a>.</p>
-
-<p class="note">Irisgrain is an independent app. It isn't made, endorsed or supported by FUJIFILM Corporation. FUJIFILM, X-T1 and the film simulation names are trademarks of FUJIFILM Corporation.</p>
+  <footer>
+    <nav>
+      <a href="privacy/">Privacy policy</a>
+      <a href="mailto:notetkakerai@gmail.com">Contact</a>
+    </nav>
+    <p>Irisgrain is an independent app. It isn't made, endorsed or supported by FUJIFILM Corporation. FUJIFILM, X-T1 and film simulation names are trademarks of FUJIFILM Corporation.</p>
+    <p>Built with Claude Code, using the Claude Opus 5.5 model by Anthropic. Claude and Claude Code are trademarks of Anthropic, PBC; Irisgrain isn't made, endorsed or supported by Anthropic.</p>
+  </footer>
 </main>
 </body>
 </html>
